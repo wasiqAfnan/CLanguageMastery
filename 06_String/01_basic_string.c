@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void main()
-{
+void main(){
     char c[] = {'A', 'F', 'N', 'A', 'N', '\0'}; //FIRST METHOD
 
     char *ptr = &c[0];
@@ -15,8 +14,8 @@ void main()
     }
     printf("\n");
 
-    //printing string second way or (convinient way)
-    char d[] = "AFNAN"; //SECOND METHOD (convinient way)
+    //printing string second way or (convenient way)
+    char d[] = "AFNAN"; //SECOND METHOD (convenient way)
 
     printf("%s", d);
     printf("\n");
