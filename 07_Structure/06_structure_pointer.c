@@ -10,7 +10,9 @@ void main(){
     ptr = &e1;
 
     (*ptr).code = 101;
-    ptr->code = 101;    //'->' this is a arrow operatpor and another method to assign any value to pointer
+    ptr->code = 101;    //'->' this is a arrow operator and another way to assign any value to pointer
+
+    // all these below 3 lines will get the same output
     printf("%d\n",e1.code);
     printf("%d\n",ptr->code);
     printf("%d",(*ptr).code);
