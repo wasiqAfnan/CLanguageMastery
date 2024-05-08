@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int sumandavg(int *ptr1, int *ptr2, int *sum, float *avg){
-    *sum=*ptr1+*ptr2;
+    *sum=*ptr1 + *ptr2;
     *avg=(*sum)/2;
     return 0;
 }

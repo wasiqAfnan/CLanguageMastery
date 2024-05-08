@@ -8,8 +8,8 @@ void main(){
 
 void star(int n){
     if(n==1){
-    printf("*\n");
-    return;
+        printf("*\n");
+        return;
     }
     star(n-1);
     for(int i=0; i<(2*n-1);i++){
