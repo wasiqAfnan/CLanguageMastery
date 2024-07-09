@@ -9,8 +9,8 @@ void main(){
     struct student *ptr;
     ptr = &e1;
 
-    (*ptr).code = 101;
-    ptr->code = 101;    //'->' this is a arrow operator and another way to assign any value to pointer
+    (*ptr).code = 101;// e1.code
+    ptr->code = 101;    //'->' this is a arrow operator and another way to assign any value to structure pointer
 
     // all these below 3 lines will get the same output
     printf("%d\n",e1.code);
