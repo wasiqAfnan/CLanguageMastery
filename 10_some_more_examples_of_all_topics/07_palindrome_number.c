@@ -6,7 +6,7 @@ void main(){
 
     printf("Enter your number: ");
     scanf("%d",&number);
-
+    // Make a copy of the number entered by user
     val = number;
 
     while(val != 0){
